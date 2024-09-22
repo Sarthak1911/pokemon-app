@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+
+
+.navbar-brand {
+  color: #1b1b1b !important;  
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-control {
+  background-color: #f8f9fa;
+  color: #343a40;           
+  border: 1px solid #ffc107;  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-control:focus {
+  border-color: #ffcb05; 
+  box-shadow: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#ffcb05' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link {
+  color: #ffcb05 !important;  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pokemon-container {
+  padding: 20px;
+}
+
+.pokemon-card {
+  background-color: #f8f9fa;  
+  border: 1px solid #ddd;     
+  border-radius: 10px;
+  width: 150px;
 }
